@@ -1,0 +1,36 @@
+.App {
+  padding: 0;
+  margin: none;
+  width: 85vw;
+  height: fit-content;
+  box-sizing: border-box;    
+  margin: 0 auto;
+}
+
+.div__btn {
+  margin-inline: auto;
+  width: inherit;
+  height: 50px;  
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.div__btn button {
+  border: none;  
+  box-sizing: border-box;
+  padding: 5px 15px 5px 15px;
+  text-align: center;
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 20px;
+  color: dimgray;
+  transition: 0.4s;
+}
+
+.div__btn button:hover {
+  cursor: pointer;
+  background-color: coral;
+  color: white;
+}
